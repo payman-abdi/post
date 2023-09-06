@@ -1,0 +1,110 @@
+
+.continer{
+position: absolute;
+min-width: 80%;
+min-height: 80vh;
+background-color:black;
+opacity: 0.8;
+left: 170px;
+top: 60px;
+border-radius: 20px;
+}
+.img{
+    display: flex;
+    justify-content:space-around ;
+}
+.imge{
+    max-width: 250px;
+   max-height: 181px;
+    border-radius: 20px;
+}
+
+.h1{
+    display: flex;
+    justify-content: space-around;
+}
+
+h2{
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    width: 250px;
+    height: 40px;
+    margin-top: -30px;
+}
+.h4{
+    display: flex;
+    justify-content: space-around;
+}
+h4{
+    background-color: rgb(255, 255, 255);
+    color: rgb(216, 198, 203);
+    width: 250px;
+    height: 100px;
+    margin-top: -30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px ;
+}
+.padr{
+    position: fixed;
+    width: 40px;
+    height: 100%;
+    opacity: 0.7;
+    
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    left: 0px;
+    
+}
+.padr:hover{
+    width:180px;
+    height:100vh;
+}
+body{
+    background-image: url(bad.jpg);
+}
+.pa{
+    margin-left:33px ;
+    text-decoration: none;
+    color: aliceblue;
+}
+.navbar{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.flex{
+    display: flex;
+    justify-content: end;
+    font-size: 25px;
+    direction: rtl;
+    
+}
+.flexend{
+    position: fixed;
+    right: 0px;
+    width: 40px;
+    height: 100px;
+    opacity: 0.7;
+    
+        background-color: rgb(10, 169, 209);
+        border-bottom: 2px aqua solid ;
+        border-right:2px aqua solid ;
+        border-radius: 10px;
+        font-size: 25px;
+}
+        
+.flexend:hover{
+    width:100px;
+    height:100px;
+}
+.pp{
+    margin-left: 18px;
+    text-decoration: none;
+    background-color: aqua;
+    border: 2px blue solid;
+    border-radius: 10px;
+}
+
+

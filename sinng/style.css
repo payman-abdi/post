@@ -1,0 +1,32 @@
+input:focus{
+    background-color: black;
+    color: rgb(0, 255, 157);
+
+}
+body{
+    background-color: rgb(2, 132, 165);
+}
+input{
+    border: 2px aqua solid;
+    border-radius: 5px;
+}
+input[type=submit]{
+    padding: 10px 30px 10px 30px;
+    border: 2px aqua solid;
+    background-color: rgb(2, 132, 165);
+}
+div{
+width: 40%;
+height: 550px;
+background-color: rgb(4, 100, 124);;
+border: 10px rgb(0, 255, 221) solid;
+text-align: center;
+border-radius: 20px;
+margin: 10px auto;
+direction: rtl;
+}
+img{
+    border-radius:50% ;
+    width: 250px;
+    height: 250px;
+}
