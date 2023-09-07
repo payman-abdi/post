@@ -1,4 +1,53 @@
-.container{
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: #0c192c;
+}
+.bababa{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.bubbles{
+    position: relative;
+    display: flex;
+}
+.bubbles span {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #1fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px  10px #4fc3dc44 , 
+    0px 0px #4fc3dc , 
+    0px 0px 100px #4fc3dc;
+    animation: animate 15s linear infinite ;
+    animation-duration: calc(125s /var(--i));
+}
+.bubbles span:nth-child(even)
+{
+    background: #ff2d75;
+    box-shadow: 0px 0px 0px 10px #ff2d7544,
+    0px 0px 50px #ff2d75,
+    0px 0px 100px #ff2d75;
+}
+@keyframes animate {
+    0%{
+        transform: translateY(100vh) scale(0);
+
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+
+    }
+}.container{
     width: 100%;
     height: 100vh;
     display: flex;
@@ -33,7 +82,7 @@ border-radius: 20px;
 .h1{
     display: flex;
     justify-content: space-around;
-    margin-top: -20px;
+    
 }
 
 h2{
@@ -81,9 +130,7 @@ h2,h4{
     width:220px;
     height:100vh;
 }
-body{
-    background-image: url(bad.jpg);
-}
+
 .pa{
     margin-left:33px ;
     text-decoration: none;
@@ -125,5 +172,3 @@ body{
     border: 2px blue solid;
     border-radius: 10px;
 }
-
-
