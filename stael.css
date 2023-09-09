@@ -147,19 +147,7 @@ h2,h4{
     direction: rtl;
     
 }
-.flexend{
-    position: fixed;
-    right: 0px;
-    width: 40px;
-    height: 100px;
-    opacity: 0.7;
-    
-        background-color: rgb(10, 169, 209);
-        border-bottom: 2px aqua solid ;
-        border-right:2px aqua solid ;
-        border-radius: 10px;
-        font-size: 25px;
-}
+
         
 .flexend:hover{
     width:100px;
